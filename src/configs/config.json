@@ -1,0 +1,22 @@
+{
+    "url": {
+        "hostname": "https://restful-booker.herokuapp.com"
+    },
+    "ping": {
+        "path": "/ping"
+    },
+    "auth": {
+        "path": "/auth",
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "data": {
+            "username": "admin",
+            "password": "password123"
+        }
+    },
+    "booking": {
+        "path": "/booking"
+    }
+
+}
